@@ -1,0 +1,551 @@
+@media (min-width: 1025px) and (max-width: 1366px) {
+    .header {
+        width: 100%;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .main {
+        gap: 50px;
+    }
+
+    .banner {
+        padding-top: 4rem;
+        padding-right: clamp(4rem, 7.1vw, 10rem);
+    }
+
+    .banner__title {
+        font-size: 3.875rem;
+    }
+
+    .price {
+        gap: 2.5rem;
+    }
+
+    .price__order {
+        width: auto;
+    }
+
+    .price__list-item {
+        font-size: 1.9rem;
+    }
+
+    .advantages {
+        gap: 2rem;
+        padding: 0 20px;
+    }
+
+    .advantages-left-image {
+        display: none;
+    }
+
+    .advantages__list {
+        width: 60%;
+        gap: 1rem;
+    }
+
+    .advantages__image {
+        width: 40%;
+    }
+
+    .contact-us {
+        width: 100%;
+    }
+
+    .contact-us__title {
+        font-size: 3rem;
+    }
+
+    .contact-us__layout {
+        width: 100%;
+        gap: 4rem;
+        margin: 0 20px;
+    }
+
+    .contact-us__content {
+        padding-left: 4rem;
+        width: 60%;
+    }
+
+    .contact-us__image {
+        width: 40%;
+    }
+
+    .contact-us__title {
+        font-size: 2.22rem;
+    }
+
+    .contact-us__input {
+        font-size: 1.3rem;
+    }
+
+    .contact-us__sumbit {
+        font-size: 1.125rem;
+    }
+
+    .footer {
+        margin-top: 50px;
+    }
+
+    .footer__content {
+        width: 100%;
+        padding: 0 20px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header {
+        width: 100%;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .main {
+        gap: 50px;
+    }
+
+    .banner {
+        padding-top: 4rem;
+        padding-right: clamp(4rem, 7.1vw, 10rem);
+        gap: 2.125rem;
+    }
+
+    .banner__title {
+        font-size: 45px;
+    }
+
+    .price {
+        gap: 2rem;
+    }
+
+    .price__order {
+        padding-top: 2.04vh;
+        padding-bottom: 2.04vh;
+        font-size: 1.125rem;
+        width: auto;
+        height: auto;
+    }
+
+    .price__list-item {
+        font-size: 1.125rem;
+    }
+
+    .advantages {
+        gap: 1rem;
+        padding: 0 20px;
+    }
+
+    .advantages__list {
+        width: 60%;
+        gap: 0.6rem;
+    }
+
+    .advantages-left-image {
+        display: none;
+    }
+
+    .advantages__image {
+        width: 40%;
+    }
+
+    .advantages__list-item {
+        font-size: 1.125rem;
+    }
+
+    .advantages__icon {
+        width: 60px;
+        height: auto;
+    }
+
+    .contact-us__title {
+        text-align: center;
+    }
+
+    .contact-us__layout {
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    .contact-us__content {
+        padding-left: 4.375rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .contact-us__image {
+        display: none;
+    }
+
+    .contact-us__content {
+        padding: 30px;
+        width: 100%;
+    }
+
+    .contact-us__title {
+        font-size: 2rem;
+    }
+
+    .checkbox-margin {
+        margin: 1.2rem;
+    }
+
+    .contact-us__input {
+        font-size: 1.125rem;
+        padding-left: 1.375rem;
+    }
+
+    .contact-us__sumbit {
+        padding: 1.3rem;
+        font-size: 1.125rem;
+    }
+
+    .footer {
+        margin-top: 50px;
+    }
+
+    .footer__content {
+        padding: 0 20px;
+        margin-top: 20px;
+    }
+
+    .footer__order {
+        padding: 1.125rem;
+    }
+
+    .footer__social-network {
+        gap: 2rem;
+    }
+
+    .footer__left {
+        gap: 2rem;
+    }
+
+    .footer__right {
+        gap: 2rem;
+    }
+
+    .footer__menu-list {
+        padding: 2rem;
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 443px) {
+    .header {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__title {
+        font-size: 22px;
+    }
+
+    .main {
+        gap: 50px;
+    }
+
+    .banner {
+        height: auto;
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 25px;
+    }
+
+    .banner__title {
+        font-size: 28px;
+    }
+
+    .price {
+        gap: 15px;
+    }
+
+    .pice__title {
+        font-size: 24px;
+    }
+
+    .price__list {
+        gap: 10px;
+    }
+
+    .price__list-item {
+        font-size: 18px;
+    }
+
+    .banner__image {
+        display: none;
+    }
+
+    .price__order {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .advantages__image {
+        display: none;
+    }
+
+    .advantages {
+        padding: 0 20px;
+    }
+
+    .advantages__icon {
+        width: 56px;
+        height: auto;
+    }
+
+    .advantages__list {
+        gap: 10px;
+    }
+
+    .advantages__list {
+        width: 100%;
+    }
+
+    .advantages__list-item {
+        font-size: 1rem;
+    }
+
+    .advantages__order {
+        font-size: 1.125rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .contact-us__content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .contact-us__layout {
+        width: 100%;
+        border-radius: 0;
+        align-items: center;
+    }
+
+    .contact-us__title {
+        font-size: 2rem;
+    }
+
+    .contact-us__input {
+        font-size: 1rem;
+    }
+
+    .checkbox-margin {
+        margin: 1rem 0;
+    }
+
+    .contact-us__checkbox {
+        font-size: 1.125rem;
+    }
+
+    .contact-us__sumbit {
+        font-size: 1.125rem;
+    }
+
+    .contact-us__image {
+        display: none;
+    }
+
+    .footer {
+        gap: 20px;
+        margin-top: 50px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+    }
+
+    .footer__content {
+        padding: 0;
+    }
+
+    .footer__menu {
+        display: none;
+    }
+
+    .footer__right {
+        display: none;
+    }
+
+    .footer__social-network {
+        gap: 20px;
+    }
+
+    .footer__left {
+        width: 100%;
+        gap: 15px;
+        align-items: center;
+        padding: 0 10px;
+        padding-bottom: 10px;
+    }
+
+    .footer__soclial-network-list {
+        gap: 10px;
+    }
+}
+
+@media (min-width: 444px) and (max-width: 768px) {
+    .header {
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .main {
+        gap: 50px;
+    }
+
+    .banner {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: calc(100vh - 69px);
+    }
+
+    .banner__title {
+        font-size: 28px;
+    }
+
+    .pice__title {
+        font-size: 24px;
+    }
+
+    .price__list-item {
+        font-size: 18px;
+    }
+
+    .price__order {
+        width: 100%;
+        padding: 1.2rem;
+        height: auto;
+    }
+
+    .advantages {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .advantages__image {
+        display: none;
+    }
+
+    .advantages__list {
+        width: 100%;
+    }
+
+
+    .advantages__list {
+        gap: 10px;
+    }
+
+    .advantages__list-item {
+        font-size: 1.125rem;
+    }
+
+    .price__order {
+        font-size: 1.125rem;
+    }
+
+    .contact-us__image {
+        display: none;
+    }
+
+    .contact-us__layout {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .contact-us__content {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .contact-us__title {
+        font-size: 2rem;
+    }
+
+    .contact-us__input {
+        font-size: 1.125rem;
+    }
+
+    .contact-us__checkbox {
+        font-size: 1.18rem;
+    }
+
+    .contact-us__sumbit {
+        font-size: 1.125rem;
+        padding: 1rem;
+    }
+
+    .checkbox-margin {
+        margin: 1rem 0;
+    }
+
+    .footer {
+        margin-top: 50px;
+        width: 100%;
+        padding: 0 20px;
+        gap: 1.2rem;
+    }
+
+    .footer__content {
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer__menu {
+        display: none;
+    }
+
+    .footer__social-network {
+        gap: 1.2rem;
+    }
+
+    .footer__soclial-network-list {
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .footer__right {
+        display: none;
+    }
+
+    .footer__left {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+    }
+}

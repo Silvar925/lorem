@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Видео в полосках</title>
+    <style>
+        body {
+            background: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .text {
+            position: relative;
+            display: inline-block;
+            line-height: 1.3;
+        }
+
+        /* Полоски */
+        .highlight {
+            display: inline-block;
+            position: relative;
+            width: 180px; /* Подгоняй под текст */
+            height: 40px;  /* Высота полоски */
+            vertical-align: middle;
+            overflow: hidden;
+        }
+
+        /* Контейнер с видео */
+        .highlight video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;  /* Масштабируем видео */
+            height: 100vh;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="text">
+        We're here <span class="highlight"><video autoplay loop muted>
+            <source src="video.mp4" type="video/mp4">
+        </video></span> to make <br>
+        healthy <span class="highlight"><video autoplay loop muted>
+            <source src="video.mp4" type="video/mp4">
+        </video></span> living effortless, <br>
+        so you can <span class="highlight"><video autoplay loop muted>
+            <source src="video.mp4" type="video/mp4">
+        </video></span> live longer <br>
+        and happier <span class="highlight"><video autoplay loop muted>
+            <source src="video.mp4" type="video/mp4">
+        </video></span>.
+    </div>
+
+</body>
+</html>
